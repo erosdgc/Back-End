@@ -15,10 +15,10 @@ class User {
         const mapBookNames = this.books.map(book => book.bookName)
         console.log(`${this.getFullName()} has these books: ${mapBookNames}`)
     }
-    addMascota(namePet) {
+    addPet(namePet) {
         return (this.pets.push(namePet))
     }
-    countMascotas() {
+    countPets() {
         return (`${(this.firstName)} lives with ${this.pets.length} pets`)
     }
 }
@@ -26,9 +26,9 @@ class User {
 const test = new User("Eros", "David", [], [])
 
 console.log(test.getFullName())
-test.addMascota("Zazu"); void
-test.addMascota("Wilson"); void
-console.log(test.countMascotas([]))
+test.addPet("Zazu"); void
+test.addPet("Wilson"); void
+console.log(test.countPets([]))
 test.addBook("El señor de las moscas", "William Golding"); void
 test.addBook("Fundación", "Isaac Asimov"); void
 test.getBooksNames([])
