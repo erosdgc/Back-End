@@ -1,0 +1,20 @@
+[
+    {
+        title: 'Benelli TRK 502',
+        price: 3185000
+        thumbnail: 'https://storage.bbike-cdn.com.cn/benelli.com/media/1111/conversions/95e20cff7c5d284f2b63178ea91583f2-hd.png',
+        id: 1
+    }
+    {
+        title: 'Benelli TRK 251'
+        price: 1460000
+        thumbnail: 'https://storage.bbike-cdn.com.cn/benelli.com/media/1304/conversions/c1f77fe1d08ec2c986f80eefbfdb06f9-hd.png'
+        id: 2
+    }
+    {
+        title: 'Benelli TNT 15'
+        price: 539000
+        thumbnail: 'https://storage.bbike-cdn.com.cn/benelli.com/media/1041/conversions/51be1f671e3cd0b0cd236bbbf6eff33b-hd.png'
+        id: 3
+    }
+]
